@@ -1,25 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
 
+
+const number = 555;
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Person></Person>
     </div>
   );
+}
+
+function Person() {
+  return (
+    <div>
+       <h1>Nadim</h1>
+    <p></p>
+    </div>
+  )
 }
 
 export default App;
